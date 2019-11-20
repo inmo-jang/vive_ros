@@ -31,7 +31,7 @@ Install Steam:
       
       sudo dpkg --install ~/Downloads/steam_latest.deb
       
-__Note:__ If it gives a dependency error run `sudo apt install --f` and re-run the install steam command (sometimes you may need to repeat this proccess multiple times)
+__Note:__ If it gives a dependency error run `sudo apt install -f` and re-run the install steam command (sometimes you may need to repeat this proccess multiple times)
 
 Run Steam:
       

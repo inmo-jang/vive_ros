@@ -57,7 +57,7 @@ Before start:
 
 Procedure:
 1. Start a `roscore`
-2. Launch the SteamVR's `vrserver` by launching the file: `roslaunch vive_ros server_vr.launch`
+2. Launch the SteamVR's `vrserver` by launching the file: `roslaunch vive_ros server_vr.launch` (You don't need to run "SteamVR" separately, otherwise there will be an error.)
 3. Launch the node: `roslaunch vive_ros vive.launch`
 4. To close the node you can `Ctrl+C`. To close the vr server you have to kill the process. For convenience: `rosrun vive_ros close_servervr.sh`
 
